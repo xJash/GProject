@@ -1,0 +1,438 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="SplitterWnd">
+      <UniqueIdentifier>{833a1b23-dd83-4e28-9650-7cde0efc0bf4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DockingBar">
+      <UniqueIdentifier>{e6afbe7b-8279-472a-bd99-dcab770cf7c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SprFile">
+      <UniqueIdentifier>{bcd8a8d5-18eb-4b38-9b97-cbaf662b282d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DialogEditor">
+      <UniqueIdentifier>{81e4d4b1-7629-4299-9b7c-49641fa6a447}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DialogEditor\DiagramEditor">
+      <UniqueIdentifier>{47d8c821-9999-4b54-bf0d-ca733c7e0dba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx</Extensions>
+    </Filter>
+    <Filter Include="TextMgr">
+      <UniqueIdentifier>{bab22c93-539a-4a04-a767-5e379b459f36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NLib">
+      <UniqueIdentifier>{f5a11909-6f78-4afe-8144-eb18b4acc08c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DLGEditorS.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="DLGEditorSDoc.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="DLGEditorSView.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogEditor\DLGPropertyDlg.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="FileNameTokenizer.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="SplitterWnd_Base.cpp">
+      <Filter>SplitterWnd</Filter>
+    </ClCompile>
+    <ClCompile Include="SplitterWndView.cpp">
+      <Filter>SplitterWnd</Filter>
+    </ClCompile>
+    <ClCompile Include="SplitterWndViewToolBar.cpp">
+      <Filter>SplitterWnd</Filter>
+    </ClCompile>
+    <ClCompile Include="DockingBar\EditCtrlBar.cpp">
+      <Filter>DockingBar</Filter>
+    </ClCompile>
+    <ClCompile Include="DockingBar\SizeCBar.cpp">
+      <Filter>DockingBar</Filter>
+    </ClCompile>
+    <ClCompile Include="SprFile\SprFile.cpp">
+      <Filter>SprFile</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogEditor\ButtonPropertyDlg.cpp">
+      <Filter>DialogEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogEditor\ChatEditPropertyDlg.cpp">
+      <Filter>DialogEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogEditor\CheckBoxPropertyDlg.cpp">
+      <Filter>DialogEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogEditor\ComboBoxPropertyDlg.cpp">
+      <Filter>DialogEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogEditor\DEditor.cpp">
+      <Filter>DialogEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogEditor\DiagramButton.cpp">
+      <Filter>DialogEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogEditor\DiagramChatEdit.cpp">
+      <Filter>DialogEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogEditor\DiagramCheckbox.cpp">
+      <Filter>DialogEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogEditor\DiagramCombobox.cpp">
+      <Filter>DialogEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogEditor\DiagramControlFactory.cpp">
+      <Filter>DialogEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogEditor\DiagramEdit.cpp">
+      <Filter>DialogEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogEditor\DiagramGroupbox.cpp">
+      <Filter>DialogEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogEditor\DiagramImageStatic.cpp">
+      <Filter>DialogEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogEditor\DiagramListbox.cpp">
+      <Filter>DialogEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogEditor\DiagramListView.cpp">
+      <Filter>DialogEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogEditor\DiagramOutLine.cpp">
+      <Filter>DialogEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogEditor\DiagramRadiobutton.cpp">
+      <Filter>DialogEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogEditor\DiagramStatic.cpp">
+      <Filter>DialogEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogEditor\DialogSettings.cpp">
+      <Filter>DialogEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogEditor\EditBoxPropertyDlg.cpp">
+      <Filter>DialogEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogEditor\EditPropertyDlg.cpp">
+      <Filter>DialogEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogEditor\ImageStaticPropertyDlg.cpp">
+      <Filter>DialogEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogEditor\ListBoxPropertyDlg.cpp">
+      <Filter>DialogEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogEditor\ListViewPropertyDlg.cpp">
+      <Filter>DialogEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogEditor\OutLinePropertyDlg.cpp">
+      <Filter>DialogEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogEditor\RadioButtonPropertyDlg.cpp">
+      <Filter>DialogEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogEditor\StaticTextPropertyDlg.cpp">
+      <Filter>DialogEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogEditor\StdGrfx.cpp">
+      <Filter>DialogEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogEditor\TextFile.cpp">
+      <Filter>DialogEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogEditor\DiagramEditor\DiagramClipboardHandler.cpp">
+      <Filter>DialogEditor\DiagramEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogEditor\DiagramEditor\DiagramEditor.cpp">
+      <Filter>DialogEditor\DiagramEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogEditor\DiagramEditor\DiagramEntity.cpp">
+      <Filter>DialogEditor\DiagramEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogEditor\DiagramEditor\DiagramEntityContainer.cpp">
+      <Filter>DialogEditor\DiagramEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogEditor\DiagramEditor\DiagramLine.cpp">
+      <Filter>DialogEditor\DiagramEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogEditor\DiagramEditor\DiagramMenu.cpp">
+      <Filter>DialogEditor\DiagramEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogEditor\DiagramEditor\DiagramPropertyDlg.cpp">
+      <Filter>DialogEditor\DiagramEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogEditor\DiagramEditor\GroupFactory.cpp">
+      <Filter>DialogEditor\DiagramEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogEditor\DiagramEditor\Tokenizer.cpp">
+      <Filter>DialogEditor\DiagramEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogEditor\DiagramEditor\UndoItem.cpp">
+      <Filter>DialogEditor\DiagramEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="TextMgr\TextMgr.cpp">
+      <Filter>TextMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NLib\NDataTypes.cpp">
+      <Filter>NLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NLib\NFile.cpp">
+      <Filter>NLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NLib\NTextManager.cpp">
+      <Filter>NLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NLib\NUtil.cpp">
+      <Filter>NLib</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FileNameTokenizer.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="DLGEditorS.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="DLGEditorSDoc.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="DLGEditorSView.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogEditor\DLGPropertyDlg.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MyDefine\MyDefine.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="SplitterWnd_Base.h">
+      <Filter>SplitterWnd</Filter>
+    </ClInclude>
+    <ClInclude Include="SplitterWndView.h">
+      <Filter>SplitterWnd</Filter>
+    </ClInclude>
+    <ClInclude Include="SplitterWndViewToolBar.h">
+      <Filter>SplitterWnd</Filter>
+    </ClInclude>
+    <ClInclude Include="DockingBar\EditCtrlBar.h">
+      <Filter>DockingBar</Filter>
+    </ClInclude>
+    <ClInclude Include="DockingBar\SizeCBar.h">
+      <Filter>DockingBar</Filter>
+    </ClInclude>
+    <ClInclude Include="SprFile\Directives.h">
+      <Filter>SprFile</Filter>
+    </ClInclude>
+    <ClInclude Include="SprFile\SprFile.h">
+      <Filter>SprFile</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogEditor\ButtonPropertyDlg.h">
+      <Filter>DialogEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogEditor\ChatEditPropertyDlg.h">
+      <Filter>DialogEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogEditor\CheckBoxPropertyDlg.h">
+      <Filter>DialogEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogEditor\ComboBoxPropertyDlg.h">
+      <Filter>DialogEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogEditor\DEditor.h">
+      <Filter>DialogEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogEditor\DiagramButton.h">
+      <Filter>DialogEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogEditor\DiagramChatEdit.h">
+      <Filter>DialogEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogEditor\DiagramCheckbox.h">
+      <Filter>DialogEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogEditor\DiagramCombobox.h">
+      <Filter>DialogEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogEditor\DiagramControlFactory.h">
+      <Filter>DialogEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogEditor\DiagramEdit.h">
+      <Filter>DialogEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogEditor\DiagramGroupbox.h">
+      <Filter>DialogEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogEditor\DiagramImageStatic.h">
+      <Filter>DialogEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogEditor\DiagramListbox.h">
+      <Filter>DialogEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogEditor\DiagramListView.h">
+      <Filter>DialogEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogEditor\DiagramOutLine.h">
+      <Filter>DialogEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogEditor\DiagramRadiobutton.h">
+      <Filter>DialogEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogEditor\DiagramStatic.h">
+      <Filter>DialogEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogEditor\DialogSettings.h">
+      <Filter>DialogEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogEditor\DLGDefine.h">
+      <Filter>DialogEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogEditor\EditBoxPropertyDlg.h">
+      <Filter>DialogEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogEditor\EditPropertyDlg.h">
+      <Filter>DialogEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogEditor\ImageStaticPropertyDlg.h">
+      <Filter>DialogEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogEditor\ListBoxPropertyDlg.h">
+      <Filter>DialogEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogEditor\ListViewPropertyDlg.h">
+      <Filter>DialogEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogEditor\OutLinePropertyDlg.h">
+      <Filter>DialogEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogEditor\RadioButtonPropertyDlg.h">
+      <Filter>DialogEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogEditor\StaticTextPropertyDlg.h">
+      <Filter>DialogEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogEditor\StdGrfx.h">
+      <Filter>DialogEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogEditor\TextFile.h">
+      <Filter>DialogEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogEditor\DiagramEditor\DiagramClipboardHandler.h">
+      <Filter>DialogEditor\DiagramEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogEditor\DiagramEditor\DiagramEditor.h">
+      <Filter>DialogEditor\DiagramEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogEditor\DiagramEditor\DiagramEntity.h">
+      <Filter>DialogEditor\DiagramEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogEditor\DiagramEditor\DiagramEntityContainer.h">
+      <Filter>DialogEditor\DiagramEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogEditor\DiagramEditor\DiagramLine.h">
+      <Filter>DialogEditor\DiagramEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogEditor\DiagramEditor\DiagramMenu.h">
+      <Filter>DialogEditor\DiagramEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogEditor\DiagramEditor\DiagramPropertyDlg.h">
+      <Filter>DialogEditor\DiagramEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogEditor\DiagramEditor\GroupFactory.h">
+      <Filter>DialogEditor\DiagramEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogEditor\DiagramEditor\Tokenizer.h">
+      <Filter>DialogEditor\DiagramEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogEditor\DiagramEditor\UndoItem.h">
+      <Filter>DialogEditor\DiagramEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="TextMgr\Directives.h">
+      <Filter>TextMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="TextMgr\TextMgr.h">
+      <Filter>TextMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NLib\NArray.h">
+      <Filter>NLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NLib\NDataTypes.h">
+      <Filter>NLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NLib\NFile.h">
+      <Filter>NLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NLib\NHashTable.h">
+      <Filter>NLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NLib\NHashTableString.h">
+      <Filter>NLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NLib\NList.h">
+      <Filter>NLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NLib\NTextManager.h">
+      <Filter>NLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NLib\NUtil.h">
+      <Filter>NLib</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\DLGEditorS.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\DLGEditorSDoc.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DLGEditorS.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\DLGEditorS.rc2">
+      <Filter>리소스 파일</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="res\DLGEditorS.manifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>

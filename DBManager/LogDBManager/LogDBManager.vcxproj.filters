@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{83318371-c124-4e32-bc0d-094caf7a85eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{bcad4d92-b584-405d-906d-7acc238ceef0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DB Msg">
+      <UniqueIdentifier>{cb138463-558f-499b-94ec-976d0d4514b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ITZNetLib">
+      <UniqueIdentifier>{68d2cb2b-dac2-476b-9991-8cdc71a81e6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ITZNetLib\libLZF">
+      <UniqueIdentifier>{c4628fc4-a073-4b22-ba51-7b142fb65e4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RichODBC">
+      <UniqueIdentifier>{7851e87c-c05c-4b62-9892-1b5a5a07b80c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DBLogProtocol.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadRunning.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetworkLib\ITZNetLib\ITZEncrypt.cpp">
+      <Filter>ITZNetLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetworkLib\ITZNetLib\ITZListen.cpp">
+      <Filter>ITZNetLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetworkLib\ITZNetLib\ITZNetIOCP.cpp">
+      <Filter>ITZNetLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetworkLib\ITZNetLib\ITZNetworkThread.cpp">
+      <Filter>ITZNetLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetworkLib\ITZNetLib\ITZPerson.cpp">
+      <Filter>ITZNetLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetworkLib\ITZNetLib\ITZQList.cpp">
+      <Filter>ITZNetLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetworkLib\ITZNetLib\ITZRecvBuffer.cpp">
+      <Filter>ITZNetLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetworkLib\ITZNetLib\ITZSendBuffer.cpp">
+      <Filter>ITZNetLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetworkLib\ITZNetLib\ITZServer.cpp">
+      <Filter>ITZNetLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetworkLib\ITZNetLib\ITZSession.cpp">
+      <Filter>ITZNetLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetworkLib\ITZNetLib\ITZSessionManager.cpp">
+      <Filter>ITZNetLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetworkLib\ITZNetLib\ITZWinApp.cpp">
+      <Filter>ITZNetLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetworkLib\ITZNetLib\NLZF.cpp">
+      <Filter>ITZNetLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetworkLib\ITZNetLib\libLZF\lzf_c.c">
+      <Filter>ITZNetLib\libLZF</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetworkLib\ITZNetLib\libLZF\lzf_d.c">
+      <Filter>ITZNetLib\libLZF</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RichODBC\ODBC\RichODBC.cpp">
+      <Filter>RichODBC</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DBLogProtocol.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LogDB.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LogDBMsg.h">
+      <Filter>DB Msg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\ITZNetLib\itzbase.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\ITZNetLib\ITZEncrypt.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\ITZNetLib\ITZList.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\ITZNetLib\ITZListen.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\ITZNetLib\ITZNetIOCP.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\ITZNetLib\ITZNetwork.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\ITZNetLib\ITZNetworkThread.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\ITZNetLib\ITZObject.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\ITZNetLib\ITZPerson.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\ITZNetLib\ITZQList.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\ITZNetLib\ITZQueue.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\ITZNetLib\ITZRecvBuffer.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\ITZNetLib\ITZSendBuffer.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\ITZNetLib\ITZServer.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\ITZNetLib\ITZSession.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\ITZNetLib\ITZSessionFactory.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\ITZNetLib\ITZSessionManager.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\ITZNetLib\ITZWinApp.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\ITZNetLib\NLZF.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\ITZNetLib\libLZF\lzf.h">
+      <Filter>ITZNetLib\libLZF</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\ITZNetLib\libLZF\lzfP.h">
+      <Filter>ITZNetLib\libLZF</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RichODBC\ODBC\RichODBC.h">
+      <Filter>RichODBC</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

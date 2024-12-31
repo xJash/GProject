@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <ProjectGuid>{64D6DFFB-5DDD-4BAB-92C5-FADB73AC46FC}</ProjectGuid>
+    <RootNamespace>DLGEditorS</RootNamespace>
+    <SccProjectName>SAK</SccProjectName>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccProvider>SAK</SccProvider>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseOfMfc>Static</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>17.0.35327.3</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>Debug\</OutDir>
+    <IntDir>Debug\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>Release\</OutDir>
+    <IntDir>Release\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>./;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0412</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0412</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\NLib\NDataTypes.cpp" />
+    <ClCompile Include="..\NLib\NFile.cpp" />
+    <ClCompile Include="..\NLib\NTextManager.cpp" />
+    <ClCompile Include="..\NLib\NUtil.cpp" />
+    <ClCompile Include="DialogEditor\ButtonPropertyDlg.cpp" />
+    <ClCompile Include="DialogEditor\ChatEditPropertyDlg.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="DialogEditor\CheckBoxPropertyDlg.cpp" />
+    <ClCompile Include="DialogEditor\ComboBoxPropertyDlg.cpp" />
+    <ClCompile Include="DialogEditor\DEditor.cpp" />
+    <ClCompile Include="DialogEditor\DiagramButton.cpp" />
+    <ClCompile Include="DialogEditor\DiagramChatEdit.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="DialogEditor\DiagramCheckbox.cpp" />
+    <ClCompile Include="DialogEditor\DiagramCombobox.cpp" />
+    <ClCompile Include="DialogEditor\DiagramControlFactory.cpp" />
+    <ClCompile Include="DialogEditor\DiagramEdit.cpp" />
+    <ClCompile Include="DialogEditor\DiagramEditor\DiagramClipboardHandler.cpp" />
+    <ClCompile Include="DialogEditor\DiagramEditor\DiagramEditor.cpp" />
+    <ClCompile Include="DialogEditor\DiagramEditor\DiagramEntity.cpp" />
+    <ClCompile Include="DialogEditor\DiagramEditor\DiagramEntityContainer.cpp" />
+    <ClCompile Include="DialogEditor\DiagramEditor\DiagramLine.cpp" />
+    <ClCompile Include="DialogEditor\DiagramEditor\DiagramMenu.cpp" />
+    <ClCompile Include="DialogEditor\DiagramEditor\DiagramPropertyDlg.cpp" />
+    <ClCompile Include="DialogEditor\DiagramEditor\GroupFactory.cpp" />
+    <ClCompile Include="DialogEditor\DiagramEditor\Tokenizer.cpp" />
+    <ClCompile Include="DialogEditor\DiagramEditor\UndoItem.cpp" />
+    <ClCompile Include="DialogEditor\DiagramGroupbox.cpp" />
+    <ClCompile Include="DialogEditor\DiagramImageStatic.cpp" />
+    <ClCompile Include="DialogEditor\DiagramListbox.cpp" />
+    <ClCompile Include="DialogEditor\DiagramListView.cpp" />
+    <ClCompile Include="DialogEditor\DiagramOutLine.cpp" />
+    <ClCompile Include="DialogEditor\DiagramRadiobutton.cpp" />
+    <ClCompile Include="DialogEditor\DiagramStatic.cpp" />
+    <ClCompile Include="DialogEditor\DialogSettings.cpp" />
+    <ClCompile Include="DialogEditor\DLGPropertyDlg.cpp" />
+    <ClCompile Include="DialogEditor\EditBoxPropertyDlg.cpp" />
+    <ClCompile Include="DialogEditor\EditPropertyDlg.cpp" />
+    <ClCompile Include="DialogEditor\ImageStaticPropertyDlg.cpp" />
+    <ClCompile Include="DialogEditor\ListBoxPropertyDlg.cpp" />
+    <ClCompile Include="DialogEditor\ListViewPropertyDlg.cpp" />
+    <ClCompile Include="DialogEditor\OutLinePropertyDlg.cpp" />
+    <ClCompile Include="DialogEditor\RadioButtonPropertyDlg.cpp" />
+    <ClCompile Include="DialogEditor\StaticTextPropertyDlg.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="DialogEditor\StdGrfx.cpp" />
+    <ClCompile Include="DialogEditor\TextFile.cpp" />
+    <ClCompile Include="DLGEditorS.cpp" />
+    <ClCompile Include="DLGEditorSDoc.cpp" />
+    <ClCompile Include="DLGEditorSView.cpp" />
+    <ClCompile Include="DockingBar\EditCtrlBar.cpp" />
+    <ClCompile Include="DockingBar\SizeCBar.cpp" />
+    <ClCompile Include="FileNameTokenizer.cpp" />
+    <ClCompile Include="MainFrm.cpp" />
+    <ClCompile Include="SplitterWndView.cpp" />
+    <ClCompile Include="SplitterWndViewToolBar.cpp" />
+    <ClCompile Include="SplitterWnd_Base.cpp" />
+    <ClCompile Include="SprFile\SprFile.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="TextMgr\TextMgr.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\NLib\NArray.h" />
+    <ClInclude Include="..\NLib\NDataTypes.h" />
+    <ClInclude Include="..\NLib\NFile.h" />
+    <ClInclude Include="..\NLib\NHashTable.h" />
+    <ClInclude Include="..\NLib\NHashTableString.h" />
+    <ClInclude Include="..\NLib\NList.h" />
+    <ClInclude Include="..\NLib\NTextManager.h" />
+    <ClInclude Include="..\NLib\NUtil.h" />
+    <ClInclude Include="DialogEditor\ButtonPropertyDlg.h" />
+    <ClInclude Include="DialogEditor\ChatEditPropertyDlg.h" />
+    <ClInclude Include="DialogEditor\CheckBoxPropertyDlg.h" />
+    <ClInclude Include="DialogEditor\ComboBoxPropertyDlg.h" />
+    <ClInclude Include="DialogEditor\DEditor.h" />
+    <ClInclude Include="DialogEditor\DiagramButton.h" />
+    <ClInclude Include="DialogEditor\DiagramChatEdit.h" />
+    <ClInclude Include="DialogEditor\DiagramCheckbox.h" />
+    <ClInclude Include="DialogEditor\DiagramCombobox.h" />
+    <ClInclude Include="DialogEditor\DiagramControlFactory.h" />
+    <ClInclude Include="DialogEditor\DiagramEdit.h" />
+    <ClInclude Include="DialogEditor\DiagramEditor\DiagramClipboardHandler.h" />
+    <ClInclude Include="DialogEditor\DiagramEditor\DiagramEditor.h" />
+    <ClInclude Include="DialogEditor\DiagramEditor\DiagramEntity.h" />
+    <ClInclude Include="DialogEditor\DiagramEditor\DiagramEntityContainer.h" />
+    <ClInclude Include="DialogEditor\DiagramEditor\DiagramLine.h" />
+    <ClInclude Include="DialogEditor\DiagramEditor\DiagramMenu.h" />
+    <ClInclude Include="DialogEditor\DiagramEditor\DiagramPropertyDlg.h" />
+    <ClInclude Include="DialogEditor\DiagramEditor\GroupFactory.h" />
+    <ClInclude Include="DialogEditor\DiagramEditor\Tokenizer.h" />
+    <ClInclude Include="DialogEditor\DiagramEditor\UndoItem.h" />
+    <ClInclude Include="DialogEditor\DiagramGroupbox.h" />
+    <ClInclude Include="DialogEditor\DiagramImageStatic.h" />
+    <ClInclude Include="DialogEditor\DiagramListbox.h" />
+    <ClInclude Include="DialogEditor\DiagramListView.h" />
+    <ClInclude Include="DialogEditor\DiagramOutLine.h" />
+    <ClInclude Include="DialogEditor\DiagramRadiobutton.h" />
+    <ClInclude Include="DialogEditor\DiagramStatic.h" />
+    <ClInclude Include="DialogEditor\DialogSettings.h" />
+    <ClInclude Include="DialogEditor\DLGDefine.h" />
+    <ClInclude Include="DialogEditor\DLGPropertyDlg.h" />
+    <ClInclude Include="DialogEditor\EditBoxPropertyDlg.h" />
+    <ClInclude Include="DialogEditor\EditPropertyDlg.h" />
+    <ClInclude Include="DialogEditor\ImageStaticPropertyDlg.h" />
+    <ClInclude Include="DialogEditor\ListBoxPropertyDlg.h" />
+    <ClInclude Include="DialogEditor\ListViewPropertyDlg.h" />
+    <ClInclude Include="DialogEditor\OutLinePropertyDlg.h" />
+    <ClInclude Include="DialogEditor\RadioButtonPropertyDlg.h" />
+    <ClInclude Include="DialogEditor\StaticTextPropertyDlg.h" />
+    <ClInclude Include="DialogEditor\StdGrfx.h" />
+    <ClInclude Include="DialogEditor\TextFile.h" />
+    <ClInclude Include="DLGEditorS.h" />
+    <ClInclude Include="DLGEditorSDoc.h" />
+    <ClInclude Include="DLGEditorSView.h" />
+    <ClInclude Include="DockingBar\EditCtrlBar.h" />
+    <ClInclude Include="DockingBar\SizeCBar.h" />
+    <ClInclude Include="FileNameTokenizer.h" />
+    <ClInclude Include="MainFrm.h" />
+    <ClInclude Include="MyDefine\MyDefine.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="SplitterWndView.h" />
+    <ClInclude Include="SplitterWndViewToolBar.h" />
+    <ClInclude Include="SplitterWnd_Base.h" />
+    <ClInclude Include="SprFile\Directives.h" />
+    <ClInclude Include="SprFile\SprFile.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="TextMgr\Directives.h" />
+    <ClInclude Include="TextMgr\TextMgr.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\DLGEditorS.ico" />
+    <Image Include="res\DLGEditorSDoc.ico" />
+    <Image Include="res\Toolbar.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DLGEditorS.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\DLGEditorS.rc2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="res\DLGEditorS.manifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="DLGEditorS.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

@@ -1,0 +1,553 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{e9e9e035-cb76-40d5-8aa8-3f9ffffa294b}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{35cdf1ee-0887-4dcb-8bd6-81d8b00797ca}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{52a58ca3-7ae5-4190-a2c1-88a3471ceb54}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="HTTP">
+      <UniqueIdentifier>{459f5778-0443-42b3-86dc-62cdbd61043a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Registry">
+      <UniqueIdentifier>{6a3694a6-979d-4526-ac79-74b850e8682d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UnZip">
+      <UniqueIdentifier>{00fc659b-fd07-4f86-86e7-523fe8a90500}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Zlib">
+      <UniqueIdentifier>{5f554348-3b14-4d97-8403-47720be62f26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network">
+      <UniqueIdentifier>{5d69fd7e-49fe-479d-b149-715f8bcc5644}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\libLZF">
+      <UniqueIdentifier>{b3130018-a6a2-4716-8180-19550f6a3119}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FTP">
+      <UniqueIdentifier>{55062bc1-20ce-4717-a7cd-dcc391f3d717}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LibListMgr">
+      <UniqueIdentifier>{fef0f803-d8f0-412f-a46a-20535fd7d840}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="custsite.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DownLoadObj.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FrontProcess.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="idispimp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Patch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PatchDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ProgressST.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TextMgr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="webbrowser2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="xSkinButton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Http.cpp">
+      <Filter>HTTP</Filter>
+    </ClCompile>
+    <ClCompile Include="HttpMgr.cpp">
+      <Filter>HTTP</Filter>
+    </ClCompile>
+    <ClCompile Include="HttpObj.cpp">
+      <Filter>HTTP</Filter>
+    </ClCompile>
+    <ClCompile Include="RegistryMgr.cpp">
+      <Filter>Registry</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NetworkLib\ITZNetLib\ITZCell.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NetworkLib\ITZNetLib\ITZEncrypt.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NetworkLib\ITZNetLib\ITZListen.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NetworkLib\ITZNetLib\ITZMap.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NetworkLib\ITZNetLib\ITZNetIOCP.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NetworkLib\ITZNetLib\ITZNetOverlapped.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NetworkLib\ITZNetLib\ITZNetworkThread.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NetworkLib\ITZNetLib\ITZPerson.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NetworkLib\ITZNetLib\ITZQList.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NetworkLib\ITZNetLib\ITZRecvBuffer.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NetworkLib\ITZNetLib\ITZSendBuffer.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NetworkLib\ITZNetLib\ITZSession.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NetworkLib\ITZNetLib\ITZSessionManager.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NetworkLib\ITZNetLib\ITZWorld.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NetworkLib\ITZNetLib\NLZF.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NetworkLib\ITZNetLib\libLZF\lzf_c.c">
+      <Filter>Network\libLZF</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NetworkLib\ITZNetLib\libLZF\lzf_d.c">
+      <Filter>Network\libLZF</Filter>
+    </ClCompile>
+    <ClCompile Include="FtpDownLoad.cpp">
+      <Filter>FTP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GoonZuWorld\common\SMLib\LibList\LibBuffer.cpp">
+      <Filter>LibListMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GoonZuWorld\common\SMLib\LibList\LibList.cpp">
+      <Filter>LibListMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GoonZuWorld\common\SMLib\LibList\LibListMgr.cpp">
+      <Filter>LibListMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GoonZuWorld\common\SMLib\LibList\LibObjBuffer.cpp">
+      <Filter>LibListMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GoonZuWorld\common\SMLib\LibList\Obj.cpp">
+      <Filter>LibListMgr</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Patch.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="custsite.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DownLoadObj.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Server\FrontServer\FrontMsg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FrontProcess.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="idispimp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Patch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PatchDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ProgressST.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TextMgr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TypeDefinition.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="webbrowser2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="xSkinButton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Http.h">
+      <Filter>HTTP</Filter>
+    </ClInclude>
+    <ClInclude Include="HttpBaseDefinition.h">
+      <Filter>HTTP</Filter>
+    </ClInclude>
+    <ClInclude Include="HttpMgr.h">
+      <Filter>HTTP</Filter>
+    </ClInclude>
+    <ClInclude Include="HttpObj.h">
+      <Filter>HTTP</Filter>
+    </ClInclude>
+    <ClInclude Include="RegistryMgr.h">
+      <Filter>Registry</Filter>
+    </ClInclude>
+    <ClInclude Include="for_main_function.h">
+      <Filter>UnZip</Filter>
+    </ClInclude>
+    <ClInclude Include="ioapi.h">
+      <Filter>Zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="iowin32.h">
+      <Filter>Zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="unzip.h">
+      <Filter>Zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zconf.h">
+      <Filter>Zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib.h">
+      <Filter>Zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NetworkLib\ITZNetLib\itzbase.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NetworkLib\ITZNetLib\ITZCAQueue.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NetworkLib\ITZNetLib\ITZCell.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NetworkLib\ITZNetLib\ITZEncrypt.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NetworkLib\ITZNetLib\ITZList.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NetworkLib\ITZNetLib\ITZListen.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NetworkLib\ITZNetLib\ITZLogConsole.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NetworkLib\ITZNetLib\ITZMap.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NetworkLib\ITZNetLib\ITZMapManager.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NetworkLib\ITZNetLib\ITZNetIOCP.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NetworkLib\ITZNetLib\ITZNetOverlapped.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NetworkLib\ITZNetLib\ITZNetwork.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NetworkLib\ITZNetLib\ITZNetworkThread.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NetworkLib\ITZNetLib\ITZObject.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NetworkLib\ITZNetLib\ITZPerson.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NetworkLib\ITZNetLib\ITZQList.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NetworkLib\ITZNetLib\ITZQueue.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NetworkLib\ITZNetLib\ITZRecvBuffer.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NetworkLib\ITZNetLib\ITZSendBuffer.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NetworkLib\ITZNetLib\ITZSession.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NetworkLib\ITZNetLib\ITZSessionFactory.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NetworkLib\ITZNetLib\ITZSessionManager.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NetworkLib\ITZNetLib\ITZWorld.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NetworkLib\ITZNetLib\NLZF.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NetworkLib\ITZNetLib\libLZF\lzf.h">
+      <Filter>Network\libLZF</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NetworkLib\ITZNetLib\libLZF\lzfP.h">
+      <Filter>Network\libLZF</Filter>
+    </ClInclude>
+    <ClInclude Include="FtpDownLoad.h">
+      <Filter>FTP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GoonZuWorld\common\SMLib\BaseInclude\BaseInclude.h">
+      <Filter>LibListMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GoonZuWorld\common\SMLib\LibList\LibBuffer.h">
+      <Filter>LibListMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GoonZuWorld\common\SMLib\LibList\LibList.h">
+      <Filter>LibListMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GoonZuWorld\common\SMLib\LibList\LibListBaseInfo.h">
+      <Filter>LibListMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GoonZuWorld\common\SMLib\LibList\LibListMgr.h">
+      <Filter>LibListMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GoonZuWorld\common\SMLib\LibList\LibObjBuffer.h">
+      <Filter>LibListMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GoonZuWorld\common\SMLib\LibList\Obj.h">
+      <Filter>LibListMgr</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\4x16.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bitmap1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bitmap6.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bitmap7.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bitmap_e.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bitmap_s.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp00001.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp00002.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp00003.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp00004.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp00005.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp00006.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp00007.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp00008.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp00009.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp00010.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp00011.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp00012.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp00013.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp00014.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\BUTTON_280X55_00_000_글로벌,USA런처시작버튼.BMP">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Exit_Eng_Click.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Exit_Eng_Disable.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Exit_Eng_Move.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Exit_Eng_Normal.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Exit_Jp_Click.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Exit_Jp_Disable.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Exit_Jp_Move.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Exit_Jp_Normal.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Exit_Kr_Click.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Exit_Kr_Disable.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Exit_Kr_Move.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Exit_Kr_Normal.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Exit_Tw_Click.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Exit_Tw_Disable.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Exit_Tw_Move.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Exit_Tw_Normal.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Exit_USA_Click.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Exit_USA_Disable.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Exit_USA_Move.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Exit_USA_Normal.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Kunshu.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Patch.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\patchtitle.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Start_Eng_Click.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Start_Eng_Disable.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Start_Eng_Move.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Start_Eng_Normal.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Start_Jp_Click.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Start_Jp_Disable.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Start_Jp_Move.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Start_Jp_Normal.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Start_Kr_Click.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Start_Kr_Disable.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Start_Kr_Move.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Start_Kr_Normal.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Start_Tw_Click.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Start_Tw_Disable.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Start_Tw_Move.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Start_Tw_Normal.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Start_USA_Click.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Start_USA_Disable.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Start_USA_Move.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Start_USA_Normal.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="GoonzuRun.exe.manifest">
+      <Filter>Resource Files</Filter>
+    </Manifest>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\Patch.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="zlibstat.lib">
+      <Filter>Zlib</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>

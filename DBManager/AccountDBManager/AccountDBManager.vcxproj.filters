@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{ef99ea01-3a32-4ecf-b353-cec500ab7858}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{9a1b5225-c1ab-4d4a-a30c-b147fcf21553}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="ITZNetLib">
+      <UniqueIdentifier>{c0306890-b652-45e7-b00b-1618269f477c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ITZNetLib\libLZF">
+      <UniqueIdentifier>{bae44173-a208-4513-9dff-d7f629862a47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DB Msg">
+      <UniqueIdentifier>{47ba5f9f-ebcf-4e13-8d20-da3b0f9b5fc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RichODBC">
+      <UniqueIdentifier>{cbb3000e-e37d-4b40-a172-0231fb25afb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgentProcess">
+      <UniqueIdentifier>{e94b2bca-0036-437c-8dfe-6edbbefd910a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{2309f7b1-e714-49d5-a91b-ca0ca2b54889}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="NLib">
+      <UniqueIdentifier>{c87b4263-92c9-4a53-8d6a-ae2d01d9bc03}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DBAuthProtocol.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DBMasterProtocol.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetworkLib\itznetlib\ITZEncrypt.cpp">
+      <Filter>ITZNetLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetworkLib\itznetlib\ITZListen.cpp">
+      <Filter>ITZNetLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetworkLib\itznetlib\ITZNetIOCP.cpp">
+      <Filter>ITZNetLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetworkLib\itznetlib\ITZNetworkThread.cpp">
+      <Filter>ITZNetLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetworkLib\itznetlib\ITZPerson.cpp">
+      <Filter>ITZNetLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetworkLib\itznetlib\ITZQList.cpp">
+      <Filter>ITZNetLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetworkLib\itznetlib\ITZRecvBuffer.cpp">
+      <Filter>ITZNetLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetworkLib\itznetlib\ITZSendBuffer.cpp">
+      <Filter>ITZNetLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetworkLib\itznetlib\ITZServer.cpp">
+      <Filter>ITZNetLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetworkLib\itznetlib\ITZSession.cpp">
+      <Filter>ITZNetLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetworkLib\itznetlib\ITZSessionManager.cpp">
+      <Filter>ITZNetLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetworkLib\itznetlib\ITZWinApp.cpp">
+      <Filter>ITZNetLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetworkLib\ITZNetLib\NLZF.cpp">
+      <Filter>ITZNetLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetworkLib\ITZNetLib\libLZF\lzf_c.c">
+      <Filter>ITZNetLib\libLZF</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetworkLib\ITZNetLib\libLZF\lzf_d.c">
+      <Filter>ITZNetLib\libLZF</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RichODBC\ODBC\RichODBC.cpp">
+      <Filter>RichODBC</Filter>
+    </ClCompile>
+    <ClCompile Include="AgentProcess.cpp">
+      <Filter>AgentProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NLib\NFile.cpp">
+      <Filter>NLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NLib\NTCHARString.cpp">
+      <Filter>NLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NLib\NUtil.cpp">
+      <Filter>NLib</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AccountDB.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DBAuthProtocol.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DBMasterProtocol.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\itznetlib\itzbase.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\itznetlib\ITZEncrypt.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\itznetlib\ITZList.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\itznetlib\ITZListen.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\itznetlib\ITZNetIOCP.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\itznetlib\ITZNetwork.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\itznetlib\ITZNetworkThread.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\itznetlib\ITZObject.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\itznetlib\ITZPerson.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\itznetlib\ITZQList.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\itznetlib\ITZQueue.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\itznetlib\ITZRecvBuffer.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\itznetlib\ITZSendBuffer.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\itznetlib\ITZServer.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\itznetlib\ITZSession.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\itznetlib\ITZSessionFactory.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\itznetlib\ITZSessionManager.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\itznetlib\ITZWinApp.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\ITZNetLib\NLZF.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\ITZNetLib\libLZF\lzf.h">
+      <Filter>ITZNetLib\libLZF</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\ITZNetLib\libLZF\lzfP.h">
+      <Filter>ITZNetLib\libLZF</Filter>
+    </ClInclude>
+    <ClInclude Include="AccountDBMsg.h">
+      <Filter>DB Msg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RichODBC\ODBC\RichODBC.h">
+      <Filter>RichODBC</Filter>
+    </ClInclude>
+    <ClInclude Include="AgentProcess.h">
+      <Filter>AgentProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AdminSystem\MasterServer\MasterMsg.h">
+      <Filter>AgentProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NLib\NMap.h">
+      <Filter>NLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NLib\NTCHARString.h">
+      <Filter>NLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NLib\NUtil.h">
+      <Filter>NLib</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

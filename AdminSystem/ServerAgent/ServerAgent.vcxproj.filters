@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{aa2e7e1b-a4f8-4b76-98c2-79223125614d}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{c69177ee-34fa-470d-9a90-a682b75c4274}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="ITZNetLib">
+      <UniqueIdentifier>{d87a2cab-9a76-404d-8e1a-2e4f9159025a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ITZNetLib\libLZF">
+      <UniqueIdentifier>{05baf49d-ef35-410d-b162-172bf7134996}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{87ba78a3-f8b0-4042-9640-3147051827c6}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AgentMasterProtocol.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AgentServerProtocol.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerAgent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SessionList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetworkLib\ITZNetLib\ITZEncrypt.cpp">
+      <Filter>ITZNetLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetworkLib\itznetlib\ITZListen.cpp">
+      <Filter>ITZNetLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetworkLib\itznetlib\ITZNetIOCP.cpp">
+      <Filter>ITZNetLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetworkLib\itznetlib\ITZNetworkThread.cpp">
+      <Filter>ITZNetLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetworkLib\itznetlib\ITZPerson.cpp">
+      <Filter>ITZNetLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetworkLib\itznetlib\ITZQList.cpp">
+      <Filter>ITZNetLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetworkLib\itznetlib\ITZRecvBuffer.cpp">
+      <Filter>ITZNetLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetworkLib\itznetlib\ITZSendBuffer.cpp">
+      <Filter>ITZNetLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetworkLib\itznetlib\ITZServer.cpp">
+      <Filter>ITZNetLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetworkLib\itznetlib\ITZSession.cpp">
+      <Filter>ITZNetLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetworkLib\itznetlib\ITZSessionManager.cpp">
+      <Filter>ITZNetLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetworkLib\itznetlib\ITZWinApp.cpp">
+      <Filter>ITZNetLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetworkLib\ITZNetLib\NLZF.cpp">
+      <Filter>ITZNetLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetworkLib\ITZNetLib\libLZF\lzf_c.c">
+      <Filter>ITZNetLib\libLZF</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetworkLib\ITZNetLib\libLZF\lzf_d.c">
+      <Filter>ITZNetLib\libLZF</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AgentMasterProtocol.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AgentServerProtocol.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MasterServer\MasterMsg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerAgent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SessionList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\itznetlib\itzbase.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\ITZNetLib\ITZEncrypt.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\itznetlib\ITZList.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\itznetlib\ITZListen.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\itznetlib\ITZNetIOCP.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\itznetlib\ITZNetwork.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\itznetlib\ITZNetworkThread.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\itznetlib\ITZObject.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\itznetlib\ITZPerson.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\itznetlib\ITZQList.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\itznetlib\ITZQueue.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\itznetlib\ITZRecvBuffer.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\itznetlib\ITZSendBuffer.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\itznetlib\ITZServer.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\itznetlib\ITZSession.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\itznetlib\ITZSessionFactory.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\itznetlib\ITZSessionManager.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\itznetlib\ITZWinApp.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\ITZNetLib\NLZF.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\ITZNetLib\libLZF\lzf.h">
+      <Filter>ITZNetLib\libLZF</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\ITZNetLib\libLZF\lzfP.h">
+      <Filter>ITZNetLib\libLZF</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

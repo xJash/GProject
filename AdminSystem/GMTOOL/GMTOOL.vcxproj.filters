@@ -1,0 +1,476 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx</Extensions>
+    </Filter>
+    <Filter Include="Log">
+      <UniqueIdentifier>{d01d9c31-b06e-437f-8fa1-605d223dceb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib">
+      <UniqueIdentifier>{a7c9018d-43ca-4045-97da-67a1ad5017b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Char">
+      <UniqueIdentifier>{8ec13aa9-063d-4cc7-b8c4-68bcc94614d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Item">
+      <UniqueIdentifier>{077bab89-9876-4adf-a632-455636cf3d97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Block">
+      <UniqueIdentifier>{46299690-795d-4509-a018-f4ee3e525c22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="StatisticsCenter">
+      <UniqueIdentifier>{8211f008-9658-42af-b462-00502cef59d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="InformationChange">
+      <UniqueIdentifier>{0c9233e9-3d48-48ff-aee0-3c9b32c168c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CharactorRecovery">
+      <UniqueIdentifier>{3e318e7b-8207-4c3b-acf6-85c7e91c6bb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Guild">
+      <UniqueIdentifier>{b4279dab-aa64-4610-b401-272bb12ec514}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Notice">
+      <UniqueIdentifier>{c57bde98-2f8f-4944-987d-df736733ea8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ID">
+      <UniqueIdentifier>{ca4b91ca-acef-42e1-ac42-2ca82912ee80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NewLog">
+      <UniqueIdentifier>{ddbeb20e-9719-4d7a-9034-0cb7d0be835c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GMClient">
+      <UniqueIdentifier>{87a44555-fb8b-4087-b5dd-f053d87980c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TradeLog">
+      <UniqueIdentifier>{f35a715a-5083-48be-b812-9df78f2ec6c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SelledLog">
+      <UniqueIdentifier>{ce2056ea-54e7-4382-8a44-6bcfa08d78db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ITZNetLib">
+      <UniqueIdentifier>{53338b66-0d60-45d2-9b0a-56970195cbb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ITZNetLib\libLZF">
+      <UniqueIdentifier>{f599090c-9b9c-4a5f-9dda-4c623758b187}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GMTOOL.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemInfoDlg.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemManagerClient.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Log\LogFrame.cpp">
+      <Filter>Log</Filter>
+    </ClCompile>
+    <ClCompile Include="Log\LogView.cpp">
+      <Filter>Log</Filter>
+    </ClCompile>
+    <ClCompile Include="Log\NLogClientProcess.cpp">
+      <Filter>Log</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GoonZuWorld\Lib\commonutil.cpp">
+      <Filter>Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MasterServer\ServerInfo.cpp">
+      <Filter>Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="Char\Char_Status.cpp">
+      <Filter>Char</Filter>
+    </ClCompile>
+    <ClCompile Include="Char\CharFrame.cpp">
+      <Filter>Char</Filter>
+    </ClCompile>
+    <ClCompile Include="Char\CharView.cpp">
+      <Filter>Char</Filter>
+    </ClCompile>
+    <ClCompile Include="Item\ItemFrame.cpp">
+      <Filter>Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Item\ItemView.cpp">
+      <Filter>Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Block\BlockFrame.cpp">
+      <Filter>Block</Filter>
+    </ClCompile>
+    <ClCompile Include="Block\BlockView.cpp">
+      <Filter>Block</Filter>
+    </ClCompile>
+    <ClCompile Include="Guild\GuildFrame.cpp">
+      <Filter>Guild</Filter>
+    </ClCompile>
+    <ClCompile Include="Guild\GuildView.cpp">
+      <Filter>Guild</Filter>
+    </ClCompile>
+    <ClCompile Include="Notice\NoticeFrame.cpp">
+      <Filter>Notice</Filter>
+    </ClCompile>
+    <ClCompile Include="Notice\NoticeView.cpp">
+      <Filter>Notice</Filter>
+    </ClCompile>
+    <ClCompile Include="Id\IdFrame.cpp">
+      <Filter>ID</Filter>
+    </ClCompile>
+    <ClCompile Include="Id\IdView.cpp">
+      <Filter>ID</Filter>
+    </ClCompile>
+    <ClCompile Include="NewLog\NewLogFrame.cpp">
+      <Filter>NewLog</Filter>
+    </ClCompile>
+    <ClCompile Include="NewLog\NewLogView.cpp">
+      <Filter>NewLog</Filter>
+    </ClCompile>
+    <ClCompile Include="NewLog\NNewLogClientProcess.cpp">
+      <Filter>NewLog</Filter>
+    </ClCompile>
+    <ClCompile Include="GMClient\GMClientFrame.cpp">
+      <Filter>GMClient</Filter>
+    </ClCompile>
+    <ClCompile Include="GMClient\GMClientView.cpp">
+      <Filter>GMClient</Filter>
+    </ClCompile>
+    <ClCompile Include="GMClient\GMProcess.cpp">
+      <Filter>GMClient</Filter>
+    </ClCompile>
+    <ClCompile Include="TradeLog\NTradeLogClientProcess.cpp">
+      <Filter>TradeLog</Filter>
+    </ClCompile>
+    <ClCompile Include="TradeLog\TradeLogFrame.cpp">
+      <Filter>TradeLog</Filter>
+    </ClCompile>
+    <ClCompile Include="TradeLog\TradeLogView.cpp">
+      <Filter>TradeLog</Filter>
+    </ClCompile>
+    <ClCompile Include="SelledLog\NSelledLogClientProcess.cpp">
+      <Filter>SelledLog</Filter>
+    </ClCompile>
+    <ClCompile Include="SelledLog\SelledLogFrame.cpp">
+      <Filter>SelledLog</Filter>
+    </ClCompile>
+    <ClCompile Include="SelledLog\SelledLogView.cpp">
+      <Filter>SelledLog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetworkLib\ITZNetLib\ITZButton2.cpp">
+      <Filter>ITZNetLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetworkLib\ITZNetLib\ITZCell.cpp">
+      <Filter>ITZNetLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetworkLib\ITZNetLib\ITZEncrypt.cpp">
+      <Filter>ITZNetLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetworkLib\ITZNetLib\ITZListen.cpp">
+      <Filter>ITZNetLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetworkLib\ITZNetLib\ITZMap.cpp">
+      <Filter>ITZNetLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetworkLib\ITZNetLib\ITZNetIOCP.cpp">
+      <Filter>ITZNetLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetworkLib\ITZNetLib\ITZNetOverlapped.cpp">
+      <Filter>ITZNetLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetworkLib\ITZNetLib\ITZNetworkThread.cpp">
+      <Filter>ITZNetLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetworkLib\ITZNetLib\ITZPerson.cpp">
+      <Filter>ITZNetLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetworkLib\ITZNetLib\ITZQList.cpp">
+      <Filter>ITZNetLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetworkLib\ITZNetLib\ITZRecvBuffer.cpp">
+      <Filter>ITZNetLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetworkLib\ITZNetLib\ITZSendBuffer.cpp">
+      <Filter>ITZNetLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetworkLib\ITZNetLib\ITZServer.cpp">
+      <Filter>ITZNetLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetworkLib\ITZNetLib\ITZSession.cpp">
+      <Filter>ITZNetLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetworkLib\ITZNetLib\ITZSessionManager.cpp">
+      <Filter>ITZNetLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetworkLib\ITZNetLib\ITZWinApp.cpp">
+      <Filter>ITZNetLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetworkLib\ITZNetLib\ITZWorld.cpp">
+      <Filter>ITZNetLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetworkLib\ITZNetLib\NLZF.cpp">
+      <Filter>ITZNetLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetworkLib\ITZNetLib\libLZF\lzf_c.c">
+      <Filter>ITZNetLib\libLZF</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetworkLib\ITZNetLib\libLZF\lzf_d.c">
+      <Filter>ITZNetLib\libLZF</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GMTOOL.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemInfoDlg.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemManagerClient.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MasterServer\MasterMsg.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Log\LogFrame.h">
+      <Filter>Log</Filter>
+    </ClInclude>
+    <ClInclude Include="Log\LogView.h">
+      <Filter>Log</Filter>
+    </ClInclude>
+    <ClInclude Include="Log\NLogClientProcess.h">
+      <Filter>Log</Filter>
+    </ClInclude>
+    <ClInclude Include="Log\NLogClientProcessDefines.h">
+      <Filter>Log</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GoonZuWorld\Lib\commonutil.h">
+      <Filter>Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MasterServer\ServerInfo.h">
+      <Filter>Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="Char\CChar_Status.h">
+      <Filter>Char</Filter>
+    </ClInclude>
+    <ClInclude Include="Char\CharFrame.h">
+      <Filter>Char</Filter>
+    </ClInclude>
+    <ClInclude Include="Char\CharView.h">
+      <Filter>Char</Filter>
+    </ClInclude>
+    <ClInclude Include="Item\ItemFrame.h">
+      <Filter>Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Item\ItemView.h">
+      <Filter>Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Block\BlockFrame.h">
+      <Filter>Block</Filter>
+    </ClInclude>
+    <ClInclude Include="Block\BlockView.h">
+      <Filter>Block</Filter>
+    </ClInclude>
+    <ClInclude Include="Guild\GuildFrame.h">
+      <Filter>Guild</Filter>
+    </ClInclude>
+    <ClInclude Include="Guild\GuildView.h">
+      <Filter>Guild</Filter>
+    </ClInclude>
+    <ClInclude Include="Notice\NoticeFrame.h">
+      <Filter>Notice</Filter>
+    </ClInclude>
+    <ClInclude Include="Notice\NoticeView.h">
+      <Filter>Notice</Filter>
+    </ClInclude>
+    <ClInclude Include="Id\IdFrame.h">
+      <Filter>ID</Filter>
+    </ClInclude>
+    <ClInclude Include="Id\IdView.h">
+      <Filter>ID</Filter>
+    </ClInclude>
+    <ClInclude Include="NewLog\NewLogFrame.h">
+      <Filter>NewLog</Filter>
+    </ClInclude>
+    <ClInclude Include="NewLog\NewLogView.h">
+      <Filter>NewLog</Filter>
+    </ClInclude>
+    <ClInclude Include="NewLog\NNewLogClientProcess.h">
+      <Filter>NewLog</Filter>
+    </ClInclude>
+    <ClInclude Include="NewLog\NNewLogClientProcessDefines.h">
+      <Filter>NewLog</Filter>
+    </ClInclude>
+    <ClInclude Include="GMClient\GMClientFrame.h">
+      <Filter>GMClient</Filter>
+    </ClInclude>
+    <ClInclude Include="GMClient\GMClientView.h">
+      <Filter>GMClient</Filter>
+    </ClInclude>
+    <ClInclude Include="GMClient\GMProcess.h">
+      <Filter>GMClient</Filter>
+    </ClInclude>
+    <ClInclude Include="TradeLog\LogDBMsg.h">
+      <Filter>TradeLog</Filter>
+    </ClInclude>
+    <ClInclude Include="TradeLog\NTradeLogClientProcess.h">
+      <Filter>TradeLog</Filter>
+    </ClInclude>
+    <ClInclude Include="TradeLog\NTradeLogClientProcessDefines.h">
+      <Filter>TradeLog</Filter>
+    </ClInclude>
+    <ClInclude Include="TradeLog\TradeLogFrame.h">
+      <Filter>TradeLog</Filter>
+    </ClInclude>
+    <ClInclude Include="TradeLog\TradeLogView.h">
+      <Filter>TradeLog</Filter>
+    </ClInclude>
+    <ClInclude Include="SelledLog\NSelledLogClientProcess.h">
+      <Filter>SelledLog</Filter>
+    </ClInclude>
+    <ClInclude Include="SelledLog\NSelledLogClientProcessDefines.h">
+      <Filter>SelledLog</Filter>
+    </ClInclude>
+    <ClInclude Include="SelledLog\SelledLogFrame.h">
+      <Filter>SelledLog</Filter>
+    </ClInclude>
+    <ClInclude Include="SelledLog\SelledLogView.h">
+      <Filter>SelledLog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\ITZNetLib\itzbase.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\ITZNetLib\ITZButton2.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\ITZNetLib\ITZCAQueue.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\ITZNetLib\ITZCell.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\ITZNetLib\ITZEncrypt.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\ITZNetLib\ITZList.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\ITZNetLib\ITZListen.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\ITZNetLib\ITZLogConsole.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\ITZNetLib\ITZMap.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\ITZNetLib\ITZNetIOCP.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\ITZNetLib\ITZNetOverlapped.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\ITZNetLib\ITZNetwork.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\ITZNetLib\ITZNetworkThread.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\ITZNetLib\ITZObject.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\ITZNetLib\ITZPerson.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\ITZNetLib\ITZQList.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\ITZNetLib\ITZQueue.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\ITZNetLib\ITZRecvBuffer.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\ITZNetLib\ITZSendBuffer.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\ITZNetLib\ITZServer.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\ITZNetLib\ITZSession.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\ITZNetLib\ITZSessionFactory.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\ITZNetLib\ITZSessionManager.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\ITZNetLib\ITZWinApp.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\ITZNetLib\ITZWorld.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\ITZNetLib\NLZF.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\ITZNetLib\libLZF\lzf.h">
+      <Filter>ITZNetLib\libLZF</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\ITZNetLib\libLZF\lzfP.h">
+      <Filter>ITZNetLib\libLZF</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\GMTOOL.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\mainfram.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GMTOOL.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\GMTOOL.rc2">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="Char_Status.htm" />
+    <None Include="ItemView.htm" />
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="res\GMTOOL.manifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>

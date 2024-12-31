@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{d0035954-1045-41d1-b82a-fc9b336874ec}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{57c2990b-235b-47bd-ae36-8349b8b5e818}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="ITZNetLib">
+      <UniqueIdentifier>{3233abe2-9266-4a0e-bb27-be1f2d87f41e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ITZNetLib\libLZF">
+      <UniqueIdentifier>{69ac6363-f997-4f7c-b976-01c60d6156d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgentProcess">
+      <UniqueIdentifier>{286b37e9-44aa-42c8-bf39-ad75799d2bff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{91c8fa1d-75f2-40bc-b827-c8d596e37986}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="DiffHellMan">
+      <UniqueIdentifier>{924be14b-ce50-480d-840d-0d2edcb12035}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NLib">
+      <UniqueIdentifier>{fcd9a949-21a9-493f-a0b0-385efd6eeb88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PromoterManager">
+      <UniqueIdentifier>{ed03908e-7019-4cb1-8002-7513cad736f5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AuthProcess.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GoonZuWorld\Lib\commonutil.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FrontClientProtocol.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FrontGameProtocol.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Log.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetworkLib\itznetlib\ITZEncrypt.cpp">
+      <Filter>ITZNetLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetworkLib\itznetlib\ITZListen.cpp">
+      <Filter>ITZNetLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetworkLib\itznetlib\ITZNetIOCP.cpp">
+      <Filter>ITZNetLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetworkLib\itznetlib\ITZNetworkThread.cpp">
+      <Filter>ITZNetLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetworkLib\itznetlib\ITZPerson.cpp">
+      <Filter>ITZNetLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetworkLib\itznetlib\ITZQList.cpp">
+      <Filter>ITZNetLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetworkLib\itznetlib\ITZRecvBuffer.cpp">
+      <Filter>ITZNetLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetworkLib\itznetlib\ITZSendBuffer.cpp">
+      <Filter>ITZNetLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetworkLib\itznetlib\ITZServer.cpp">
+      <Filter>ITZNetLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetworkLib\itznetlib\ITZSession.cpp">
+      <Filter>ITZNetLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetworkLib\itznetlib\ITZSessionManager.cpp">
+      <Filter>ITZNetLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetworkLib\itznetlib\ITZWinApp.cpp">
+      <Filter>ITZNetLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetworkLib\ITZNetLib\NLZF.cpp">
+      <Filter>ITZNetLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetworkLib\ITZNetLib\libLZF\lzf_c.c">
+      <Filter>ITZNetLib\libLZF</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetworkLib\ITZNetLib\libLZF\lzf_d.c">
+      <Filter>ITZNetLib\libLZF</Filter>
+    </ClCompile>
+    <ClCompile Include="AgentProcess.cpp">
+      <Filter>AgentProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GoonZuWorld\Apex\des.cpp">
+      <Filter>DiffHellMan</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GoonZuWorld\Apex\dhkey.cpp">
+      <Filter>DiffHellMan</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GoonZuWorld\Apex\gamecode.cpp">
+      <Filter>DiffHellMan</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NLib\NTCHARString.cpp">
+      <Filter>NLib</Filter>
+    </ClCompile>
+    <ClCompile Include="PromoterManager\clPromoterManager.cpp">
+      <Filter>PromoterManager</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\AuthServer\AuthMsg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AuthProcess.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GoonZuWorld\Lib\commonutil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FrontClientProtocol.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FrontGameProtocol.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FrontMsg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FrontServer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Log.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\itznetlib\itzbase.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\itznetlib\ITZEncrypt.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\itznetlib\ITZList.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\itznetlib\ITZListen.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\itznetlib\ITZNetIOCP.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\itznetlib\ITZNetwork.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\itznetlib\ITZNetworkThread.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\itznetlib\ITZObject.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\itznetlib\ITZPerson.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\itznetlib\ITZQList.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\itznetlib\ITZQueue.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\itznetlib\ITZRecvBuffer.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\itznetlib\ITZSendBuffer.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\itznetlib\ITZServer.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\itznetlib\ITZSession.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\itznetlib\ITZSessionFactory.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\itznetlib\ITZSessionManager.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\itznetlib\ITZWinApp.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\ITZNetLib\NLZF.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\ITZNetLib\libLZF\lzf.h">
+      <Filter>ITZNetLib\libLZF</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\ITZNetLib\libLZF\lzfP.h">
+      <Filter>ITZNetLib\libLZF</Filter>
+    </ClInclude>
+    <ClInclude Include="AgentProcess.h">
+      <Filter>AgentProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AdminSystem\MasterServer\MasterMsg.h">
+      <Filter>AgentProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GoonZuWorld\Apex\des.h">
+      <Filter>DiffHellMan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GoonZuWorld\Apex\dhkey.h">
+      <Filter>DiffHellMan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GoonZuWorld\Apex\gamecode.h">
+      <Filter>DiffHellMan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NLib\NMap.h">
+      <Filter>NLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NLib\NTCHARString.h">
+      <Filter>NLib</Filter>
+    </ClInclude>
+    <ClInclude Include="PromoterManager\clPromoterManager.h">
+      <Filter>PromoterManager</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cryptcom.tlb" />
+    <None Include="cryptcom.tlh" />
+  </ItemGroup>
+</Project>

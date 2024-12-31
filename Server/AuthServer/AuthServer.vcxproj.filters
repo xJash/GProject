@@ -1,0 +1,288 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{dd9c2a96-e6e3-4802-bb07-257dac89511b}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{bc178c00-6c92-4785-8664-d60fc94b8f42}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="ITZNetLib">
+      <UniqueIdentifier>{317e773a-5775-4adb-ba02-e1e48bcfdc1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ITZNetLib\libLZF">
+      <UniqueIdentifier>{a7639291-b50e-41ad-8f81-7ec1a9c8122b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgentProcess">
+      <UniqueIdentifier>{4c9f7475-0457-42ae-bd03-3acd467190d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{aae0937f-d327-4e77-9e6a-3c644a59457f}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="GASH">
+      <UniqueIdentifier>{00230954-2e66-4d34-aec6-92d705bc2ff6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NLib">
+      <UniqueIdentifier>{ae68c2ad-cdcb-4308-a733-cdd7a0bf5181}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GleeService">
+      <UniqueIdentifier>http://webservice.hljz.net/GameActivService.asmx</UniqueIdentifier>
+    </Filter>
+    <Filter Include="생성 파일">
+      <UniqueIdentifier>{67DA6AC5-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="TiredSystem">
+      <UniqueIdentifier>http://wallowguard.youxi.net.cn/AEService.asmx</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AccountDBProcess">
+      <UniqueIdentifier>{3f6c3fa8-8587-46d6-99fd-8ec1f185f0ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IOVATION">
+      <UniqueIdentifier>{c77f2f70-9faf-4165-ba50-3f52481c414c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AuthFrontProtocol.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AuthGameProtocol.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AuthUserList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FrontServer\Log.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NDataTypes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NUtil.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UserManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetworkLib\itznetlib\ITZEncrypt.cpp">
+      <Filter>ITZNetLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetworkLib\itznetlib\ITZListen.cpp">
+      <Filter>ITZNetLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetworkLib\itznetlib\ITZNetIOCP.cpp">
+      <Filter>ITZNetLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetworkLib\itznetlib\ITZNetworkThread.cpp">
+      <Filter>ITZNetLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetworkLib\itznetlib\ITZPerson.cpp">
+      <Filter>ITZNetLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetworkLib\itznetlib\ITZQList.cpp">
+      <Filter>ITZNetLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetworkLib\itznetlib\ITZRecvBuffer.cpp">
+      <Filter>ITZNetLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetworkLib\itznetlib\ITZSendBuffer.cpp">
+      <Filter>ITZNetLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetworkLib\itznetlib\ITZServer.cpp">
+      <Filter>ITZNetLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetworkLib\itznetlib\ITZSession.cpp">
+      <Filter>ITZNetLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetworkLib\itznetlib\ITZSessionManager.cpp">
+      <Filter>ITZNetLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetworkLib\itznetlib\ITZWinApp.cpp">
+      <Filter>ITZNetLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetworkLib\ITZNetLib\NLZF.cpp">
+      <Filter>ITZNetLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetworkLib\ITZNetLib\libLZF\lzf_c.c">
+      <Filter>ITZNetLib\libLZF</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetworkLib\ITZNetLib\libLZF\lzf_d.c">
+      <Filter>ITZNetLib\libLZF</Filter>
+    </ClCompile>
+    <ClCompile Include="AgentProcess.cpp">
+      <Filter>AgentProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="GASH.cpp">
+      <Filter>GASH</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NLib\md5.cpp">
+      <Filter>NLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NLib\NTCHARString.cpp">
+      <Filter>NLib</Filter>
+    </ClCompile>
+    <ClCompile Include="AccountDBProcess.cpp">
+      <Filter>AccountDBProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="cltIOVATION.cpp">
+      <Filter>IOVATION</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AuthFrontProtocol.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AuthGameProtocol.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AuthMsg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AuthServer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AuthUserList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GleeService.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FrontServer\Log.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NDataTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NUtil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TiredSystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UserManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WebService.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\itznetlib\itzbase.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\itznetlib\ITZEncrypt.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\itznetlib\ITZList.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\itznetlib\ITZListen.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\itznetlib\ITZNetIOCP.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\itznetlib\ITZNetwork.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\itznetlib\ITZNetworkThread.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\itznetlib\ITZObject.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\itznetlib\ITZPerson.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\itznetlib\ITZQList.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\itznetlib\ITZQueue.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\itznetlib\ITZRecvBuffer.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\itznetlib\ITZSendBuffer.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\itznetlib\ITZServer.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\itznetlib\ITZSession.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\itznetlib\ITZSessionFactory.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\itznetlib\ITZSessionManager.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\itznetlib\ITZWinApp.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\ITZNetLib\NLZF.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\ITZNetLib\libLZF\lzf.h">
+      <Filter>ITZNetLib\libLZF</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\ITZNetLib\libLZF\lzfP.h">
+      <Filter>ITZNetLib\libLZF</Filter>
+    </ClInclude>
+    <ClInclude Include="AgentProcess.h">
+      <Filter>AgentProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AdminSystem\MasterServer\MasterMsg.h">
+      <Filter>AgentProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="GASH.h">
+      <Filter>GASH</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NLib\md5.h">
+      <Filter>NLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NLib\NMap.h">
+      <Filter>NLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NLib\NTCHARString.h">
+      <Filter>NLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NLib\NUpdateTimer.h">
+      <Filter>NLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\DBManager\AccountDBManager\AccountDBMsg.h">
+      <Filter>AccountDBProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="AccountDBProcess.h">
+      <Filter>AccountDBProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="cltIOVATION.h">
+      <Filter>IOVATION</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="GleeService\GameActivService.disco">
+      <Filter>GleeService</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GleeService\GameActivService.wsdl">
+      <Filter>GleeService</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GleeService\results.discomap">
+      <Filter>GleeService</Filter>
+    </CustomBuild>
+    <CustomBuild Include="TiredSystem\AEService.disco">
+      <Filter>TiredSystem</Filter>
+    </CustomBuild>
+    <CustomBuild Include="TiredSystem\AEService.wsdl">
+      <Filter>TiredSystem</Filter>
+    </CustomBuild>
+    <CustomBuild Include="TiredSystem\results.discomap">
+      <Filter>TiredSystem</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

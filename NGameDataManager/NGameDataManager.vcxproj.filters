@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="LogServerInfo">
+      <UniqueIdentifier>{cb1f3335-0029-4995-b2c8-6aa5342a73fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LogCommand">
+      <UniqueIdentifier>{e62674f9-e88c-40fe-84f4-18a0f6f6d44d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LogCommandFilter">
+      <UniqueIdentifier>{dddede65-9897-41d5-b782-b4bdf4a000b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="QuestTypeGameData">
+      <UniqueIdentifier>{33756fdd-faea-43c9-86f3-30bca97bceb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ItemGameData">
+      <UniqueIdentifier>{0942275b-abf4-420a-858b-284b53ba42c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LogCommandType">
+      <UniqueIdentifier>{594c2869-8683-4058-9b60-74a25d243a02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LogCommandIndex">
+      <UniqueIdentifier>{c79ce893-981f-4e2e-8116-f396faf204d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LogTextTrans">
+      <UniqueIdentifier>{ec9443cb-e6bd-4bba-9134-1222aaefc5e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LogDescription">
+      <UniqueIdentifier>{8473f55a-7088-462f-85dd-af4b7826b5b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LogReasonDescription">
+      <UniqueIdentifier>{9452fee4-e6f1-4801-8b3d-7e9b3337f27d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NCharGameData">
+      <UniqueIdentifier>{ae3e0a48-211d-4af6-9d45-cab6dac9e33f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NVillageGameData">
+      <UniqueIdentifier>{247eac80-b09e-4f3e-8545-9e2215ba198d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="LogServerInfo\NLogServerInfo.cpp">
+      <Filter>LogServerInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="LogServerInfo\NLogServerInfoManager.cpp">
+      <Filter>LogServerInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="LogCommand\NLogCommand.cpp">
+      <Filter>LogCommand</Filter>
+    </ClCompile>
+    <ClCompile Include="LogCommand\NLogCommandManager.cpp">
+      <Filter>LogCommand</Filter>
+    </ClCompile>
+    <ClCompile Include="LogCommandFilter\NLogCommandFilter.cpp">
+      <Filter>LogCommandFilter</Filter>
+    </ClCompile>
+    <ClCompile Include="LogCommandFilter\NLogCommandFilterManager.cpp">
+      <Filter>LogCommandFilter</Filter>
+    </ClCompile>
+    <ClCompile Include="QuestTypeGameData\NQuestTypeGameData.cpp">
+      <Filter>QuestTypeGameData</Filter>
+    </ClCompile>
+    <ClCompile Include="QuestTypeGameData\NQuestTypeGameDataManager.cpp">
+      <Filter>QuestTypeGameData</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemGameData\NItemGameDataManager.cpp">
+      <Filter>ItemGameData</Filter>
+    </ClCompile>
+    <ClCompile Include="LogCommandType\NLogCommandType.cpp">
+      <Filter>LogCommandType</Filter>
+    </ClCompile>
+    <ClCompile Include="LogCommandType\NLogCommandTypeManager.cpp">
+      <Filter>LogCommandType</Filter>
+    </ClCompile>
+    <ClCompile Include="LogCommandIndex\NLogCommandIndex.cpp">
+      <Filter>LogCommandIndex</Filter>
+    </ClCompile>
+    <ClCompile Include="LogCommandIndex\NLogCommandIndexManager.cpp">
+      <Filter>LogCommandIndex</Filter>
+    </ClCompile>
+    <ClCompile Include="LogTextTrans\NLogTextTrans.cpp">
+      <Filter>LogTextTrans</Filter>
+    </ClCompile>
+    <ClCompile Include="LogTextTrans\NLogTextTransManager.cpp">
+      <Filter>LogTextTrans</Filter>
+    </ClCompile>
+    <ClCompile Include="LogDescription\NLogDescription.cpp">
+      <Filter>LogDescription</Filter>
+    </ClCompile>
+    <ClCompile Include="LogDescription\NLogDescriptionManager.cpp">
+      <Filter>LogDescription</Filter>
+    </ClCompile>
+    <ClCompile Include="LogReasonDescription\NLogReasonDescription.cpp">
+      <Filter>LogReasonDescription</Filter>
+    </ClCompile>
+    <ClCompile Include="LogReasonDescription\NLogReasonDescriptionManager.cpp">
+      <Filter>LogReasonDescription</Filter>
+    </ClCompile>
+    <ClCompile Include="CharGameData\NCharGameDataManager.cpp">
+      <Filter>NCharGameData</Filter>
+    </ClCompile>
+    <ClCompile Include="VillageGameData\NVillageGameDataManager.cpp">
+      <Filter>NVillageGameData</Filter>
+    </ClCompile>
+    <ClCompile Include="NGameDataManager.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="LogServerInfo\NLogServerInfo.h">
+      <Filter>LogServerInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="LogServerInfo\NLogServerInfoManager.h">
+      <Filter>LogServerInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="LogCommand\NLogCommand.h">
+      <Filter>LogCommand</Filter>
+    </ClInclude>
+    <ClInclude Include="LogCommand\NLogCommandManager.h">
+      <Filter>LogCommand</Filter>
+    </ClInclude>
+    <ClInclude Include="LogCommandFilter\NLogCommandFilter.h">
+      <Filter>LogCommandFilter</Filter>
+    </ClInclude>
+    <ClInclude Include="LogCommandFilter\NLogCommandFilterManager.h">
+      <Filter>LogCommandFilter</Filter>
+    </ClInclude>
+    <ClInclude Include="QuestTypeGameData\NQuestTypeGameData.h">
+      <Filter>QuestTypeGameData</Filter>
+    </ClInclude>
+    <ClInclude Include="QuestTypeGameData\NQuestTypeGameDataManager.h">
+      <Filter>QuestTypeGameData</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemGameData\NItemGameData.h">
+      <Filter>ItemGameData</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemGameData\NItemGameDataManager.h">
+      <Filter>ItemGameData</Filter>
+    </ClInclude>
+    <ClInclude Include="LogCommandType\NLogCommandType.h">
+      <Filter>LogCommandType</Filter>
+    </ClInclude>
+    <ClInclude Include="LogCommandType\NLogCommandTypeManager.h">
+      <Filter>LogCommandType</Filter>
+    </ClInclude>
+    <ClInclude Include="LogCommandIndex\NLogCommandIndex.h">
+      <Filter>LogCommandIndex</Filter>
+    </ClInclude>
+    <ClInclude Include="LogCommandIndex\NLogCommandIndexManager.h">
+      <Filter>LogCommandIndex</Filter>
+    </ClInclude>
+    <ClInclude Include="LogTextTrans\NLogTextTrans.h">
+      <Filter>LogTextTrans</Filter>
+    </ClInclude>
+    <ClInclude Include="LogTextTrans\NLogTextTransManager.h">
+      <Filter>LogTextTrans</Filter>
+    </ClInclude>
+    <ClInclude Include="LogDescription\NLogDescription.h">
+      <Filter>LogDescription</Filter>
+    </ClInclude>
+    <ClInclude Include="LogDescription\NLogDescriptionManager.h">
+      <Filter>LogDescription</Filter>
+    </ClInclude>
+    <ClInclude Include="LogReasonDescription\NLogReasonDescription.h">
+      <Filter>LogReasonDescription</Filter>
+    </ClInclude>
+    <ClInclude Include="LogReasonDescription\NLogReasonDescriptionManager.h">
+      <Filter>LogReasonDescription</Filter>
+    </ClInclude>
+    <ClInclude Include="CharGameData\NCharGameData.h">
+      <Filter>NCharGameData</Filter>
+    </ClInclude>
+    <ClInclude Include="CharGameData\NCharGameDataManager.h">
+      <Filter>NCharGameData</Filter>
+    </ClInclude>
+    <ClInclude Include="VillageGameData\NVillageGameData.h">
+      <Filter>NVillageGameData</Filter>
+    </ClInclude>
+    <ClInclude Include="VillageGameData\NVillageGameDataManager.h">
+      <Filter>NVillageGameData</Filter>
+    </ClInclude>
+    <ClInclude Include="NGameDataManager.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>

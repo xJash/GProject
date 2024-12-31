@@ -1,0 +1,771 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{b70c133a-61d7-4fab-9fea-67c8d6b41f0a}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{e3ef1fba-6e3d-433f-b6f2-a4c57672d0c5}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="ITZNetLib">
+      <UniqueIdentifier>{86d1d102-009b-4722-b172-f8c0ebf34261}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ITZNetLib\libLZF">
+      <UniqueIdentifier>{dd1fa509-d37a-491a-be0c-b1e60dcd685f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DB Msg">
+      <UniqueIdentifier>{5dc1174d-e476-4f5a-b7db-05c7cc17486e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RichODBC">
+      <UniqueIdentifier>{b0113b3b-edb7-4584-b23f-c5f6c2ca70eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Item">
+      <UniqueIdentifier>{36050df7-8130-4576-b894-c9b97f3781eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib">
+      <UniqueIdentifier>{82a50b60-6a69-4c77-9ed9-42628532c27e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib\EtcTool">
+      <UniqueIdentifier>{b51280ef-79a1-4f18-b8ef-a6912374b8ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgentProcess">
+      <UniqueIdentifier>{d26cb22c-87b8-4eab-9bed-34331b45a184}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Minister">
+      <UniqueIdentifier>{d8f28455-53b6-4e83-896d-4742688d1aa6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DBGameLogProtocol">
+      <UniqueIdentifier>{2d8ee92f-b4d5-4915-84f6-97fac222553d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GeneralMeeting">
+      <UniqueIdentifier>{e5293738-c423-45f7-af15-98527c6b0492}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{33abbf39-e28a-48c7-bc28-ca9018991e18}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="TextMgr">
+      <UniqueIdentifier>{76fcab32-041b-4170-a9f6-88b6c17a34e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NLib">
+      <UniqueIdentifier>{82755b2c-86c9-41a9-93ba-c70281d03ec9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{8e1837d9-65fa-4180-90de-3d12bb0cc361}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BillInterface">
+      <UniqueIdentifier>{113408e1-2855-4869-98c7-4b01e78af75d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BillInterface\BIllComponent">
+      <UniqueIdentifier>{f7678b62-773e-4fd6-93b9-a83c6f55ab8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DBGW">
+      <UniqueIdentifier>{e8d4337a-ad24-4008-bd7d-9b131431265e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HanGameBillingProcess">
+      <UniqueIdentifier>{70d82d68-0800-4336-9098-e74580a859bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GMSystem">
+      <UniqueIdentifier>{6fbab3ce-d13f-49b5-ab93-cb30e04eac9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NHNChinaBilling">
+      <UniqueIdentifier>{187851fa-8a31-40f3-a990-14aa8557d3b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BillingForGermany">
+      <UniqueIdentifier>{410e1325-0194-48b5-80e5-93a7f52aeb0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DormancyAccount">
+      <UniqueIdentifier>{91908319-f805-4253-a144-74ce3f10c5e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BillingForKorea">
+      <UniqueIdentifier>{9adcb23c-5ba3-4cd3-bb62-3c36f0215a69}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DBGameProtocol.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DBGameProtocol2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DBLogProcess.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DBLogProtocol.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DBMsg2News.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DBMsgAssistFunction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DBMsgAutoMacro.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DBMsgBank.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DBMsgCityhall.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DBMsgDormancy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DBMsgEmpire.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DBMsgFamily.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DBMsgFeast.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DBMsgFriend.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DBMsgGacha.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DBMsgGeneralMeeting.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DBMsgGuild.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DBMsgGuilty.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DBMsgHealth.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DBMsgHorse.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DBMsgHorseMarket.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DBMsgHouse.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DBMsgHouseHorse.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DBMsgHouseShipyard.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DBMsgHunt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DBMsgImportantParameta.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DBMsgIPGClient.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DBMsgItemMall.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DBMsgLand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DBMsgLetter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DBMsgLog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DBMsgMarket.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DBMsgMine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DBMsgMinister.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DBMsgMofuMofuEvent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DBMsgNPC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DBMsgPerson.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DBMsgPersonItem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DBMsgPort.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DBMsgPostOffice.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DBMsgPVP_League.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DBMsgQuest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DBMsgRank.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DBMsgRealEstate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DBMsgShip.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DBMsgShipMarket.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DBMsgSkill.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DBMsgSoulGuard.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DBMsgStock.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DBMsgStructure.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DBMsgSummon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DBMsgSummonHeroMarket.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DBMsgSummonMarket.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DBMsgSystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DBMsgTax.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DBMsgTradeServer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DBMsgVillage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DBMsgWedding.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DBMsgWorldMoney.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GoonZuWorld\common\Family\Family.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetworkLib\ITZNetLib\ITZEncrypt.cpp">
+      <Filter>ITZNetLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetworkLib\itznetlib\ITZListen.cpp">
+      <Filter>ITZNetLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetworkLib\itznetlib\ITZNetIOCP.cpp">
+      <Filter>ITZNetLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetworkLib\itznetlib\ITZNetworkThread.cpp">
+      <Filter>ITZNetLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetworkLib\itznetlib\ITZPerson.cpp">
+      <Filter>ITZNetLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetworkLib\itznetlib\ITZQList.cpp">
+      <Filter>ITZNetLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetworkLib\itznetlib\ITZRecvBuffer.cpp">
+      <Filter>ITZNetLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetworkLib\itznetlib\ITZSendBuffer.cpp">
+      <Filter>ITZNetLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetworkLib\itznetlib\ITZServer.cpp">
+      <Filter>ITZNetLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetworkLib\itznetlib\ITZSession.cpp">
+      <Filter>ITZNetLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetworkLib\itznetlib\ITZSessionManager.cpp">
+      <Filter>ITZNetLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetworkLib\itznetlib\ITZWinApp.cpp">
+      <Filter>ITZNetLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetworkLib\ITZNetLib\NLZF.cpp">
+      <Filter>ITZNetLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetworkLib\ITZNetLib\libLZF\lzf_c.c">
+      <Filter>ITZNetLib\libLZF</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetworkLib\ITZNetLib\libLZF\lzf_d.c">
+      <Filter>ITZNetLib\libLZF</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RichODBC\ODBC\RichODBC.cpp">
+      <Filter>RichODBC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GoonZuWorld\common\Item\ItemCommon\ItemUnit.cpp">
+      <Filter>Item</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GoonZuWorld\Lib\commonutil.cpp">
+      <Filter>Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GoonZuWorld\Lib\EtcTool\EtcTool.cpp">
+      <Filter>Lib\EtcTool</Filter>
+    </ClCompile>
+    <ClCompile Include="AgentProcess.cpp">
+      <Filter>AgentProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GoonZuWorld\Server\Minister\MinisterBase.cpp">
+      <Filter>Minister</Filter>
+    </ClCompile>
+    <ClCompile Include="DBGameLogProtocol.cpp">
+      <Filter>DBGameLogProtocol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GoonZuWorld\CommonLogic\CityHall\GeneralMeeting.cpp">
+      <Filter>GeneralMeeting</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GoonZuWorld\CommonLogic\TextMgr\TextMgr.cpp">
+      <Filter>TextMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NLib\NDataLoader.cpp">
+      <Filter>NLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NLib\NDataTypes.cpp">
+      <Filter>NLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NLib\NDate.cpp">
+      <Filter>NLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NLib\NDIB.cpp">
+      <Filter>NLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NLib\NDraw.cpp">
+      <Filter>NLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NLib\NDraw_PutSpr16T.cpp">
+      <Filter>NLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NLib\NFile.cpp">
+      <Filter>NLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NLib\NMsgShareBuffer.cpp">
+      <Filter>NLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NLib\NSpr.cpp">
+      <Filter>NLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NLib\NTCHARString.cpp">
+      <Filter>NLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NLib\NTextManager.cpp">
+      <Filter>NLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NLib\NTimer.cpp">
+      <Filter>NLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NLib\NUtil.cpp">
+      <Filter>NLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NLib\TSpr.cpp">
+      <Filter>NLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GoonZuWorld\common\Common.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GoonZuWorld\common\PersonInfo.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GoonZuWorld\common\SystemReward\SystemReward.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="BillInterfaces.cpp">
+      <Filter>BillInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="BillComponent\Bill.cpp">
+      <Filter>BillInterface\BIllComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="BillComponent\BillSocket.cpp">
+      <Filter>BillInterface\BIllComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="BillComponent\SyncSocket.cpp">
+      <Filter>BillInterface\BIllComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RichODBC\DBGW\DBGW.cpp">
+      <Filter>DBGW</Filter>
+    </ClCompile>
+    <ClCompile Include="HanGameBillingProcess\NHanGameBillingProcess.cpp">
+      <Filter>HanGameBillingProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="HanGameBillingProcess\NHannEverBillingProcess.cpp">
+      <Filter>HanGameBillingProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="HanGameBillingProcess\NIJJIBillingProcess.cpp">
+      <Filter>HanGameBillingProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GoonZuWorld\GMSystem\GMSectionData.cpp">
+      <Filter>GMSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="BillManager_Germany.cpp">
+      <Filter>BillingForGermany</Filter>
+    </ClCompile>
+    <ClCompile Include="BillSocket_Germany.cpp">
+      <Filter>BillingForGermany</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GoonZuWorld\CommonLogic\DormancyAccountSystem\DormancyInfo.cpp">
+      <Filter>DormancyAccount</Filter>
+    </ClCompile>
+    <ClCompile Include="BillManager_nDoors_Korea.cpp">
+      <Filter>BillingForKorea</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DBGameProtocol.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DBGameProtocol2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DBLogMsg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DBLogProcess.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DBLogProtocol.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GoonZuWorld\common\Family\Family.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameDB.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\itznetlib\itzbase.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\ITZNetLib\ITZEncrypt.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\itznetlib\ITZList.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\itznetlib\ITZListen.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\itznetlib\ITZNetIOCP.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\itznetlib\ITZNetwork.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\itznetlib\ITZNetworkThread.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\itznetlib\ITZObject.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\itznetlib\ITZPerson.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\itznetlib\ITZQList.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\itznetlib\ITZQueue.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\itznetlib\ITZRecvBuffer.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\itznetlib\ITZSendBuffer.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\itznetlib\ITZServer.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\itznetlib\ITZSession.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\itznetlib\ITZSessionFactory.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\itznetlib\ITZSessionManager.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\itznetlib\ITZWinApp.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\ITZNetLib\NLZF.h">
+      <Filter>ITZNetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\ITZNetLib\libLZF\lzf.h">
+      <Filter>ITZNetLib\libLZF</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetworkLib\ITZNetLib\libLZF\lzfP.h">
+      <Filter>ITZNetLib\libLZF</Filter>
+    </ClInclude>
+    <ClInclude Include="DBMsg-Bank.h">
+      <Filter>DB Msg</Filter>
+    </ClInclude>
+    <ClInclude Include="DBMsg-Cityhall.h">
+      <Filter>DB Msg</Filter>
+    </ClInclude>
+    <ClInclude Include="DBMsg-DailyQuest.h">
+      <Filter>DB Msg</Filter>
+    </ClInclude>
+    <ClInclude Include="DBMsg-Dormancy.h">
+      <Filter>DB Msg</Filter>
+    </ClInclude>
+    <ClInclude Include="DBMsg-Family.h">
+      <Filter>DB Msg</Filter>
+    </ClInclude>
+    <ClInclude Include="DBMsg-Fishing.h">
+      <Filter>DB Msg</Filter>
+    </ClInclude>
+    <ClInclude Include="DBMsg-ForeignMerchantNPC.h">
+      <Filter>DB Msg</Filter>
+    </ClInclude>
+    <ClInclude Include="DBMsg-Friend.h">
+      <Filter>DB Msg</Filter>
+    </ClInclude>
+    <ClInclude Include="DBMsg-Gacha.h">
+      <Filter>DB Msg</Filter>
+    </ClInclude>
+    <ClInclude Include="DBMsg-Guild.h">
+      <Filter>DB Msg</Filter>
+    </ClInclude>
+    <ClInclude Include="DBMsg-HorseMarket.h">
+      <Filter>DB Msg</Filter>
+    </ClInclude>
+    <ClInclude Include="DBMsg-House.h">
+      <Filter>DB Msg</Filter>
+    </ClInclude>
+    <ClInclude Include="DBMsg-Hunt.h">
+      <Filter>DB Msg</Filter>
+    </ClInclude>
+    <ClInclude Include="DBMsg-IPGClient.h">
+      <Filter>DB Msg</Filter>
+    </ClInclude>
+    <ClInclude Include="DBMsg-Item.h">
+      <Filter>DB Msg</Filter>
+    </ClInclude>
+    <ClInclude Include="DBMsg-ItemMall.h">
+      <Filter>DB Msg</Filter>
+    </ClInclude>
+    <ClInclude Include="DBMsg-Log.h">
+      <Filter>DB Msg</Filter>
+    </ClInclude>
+    <ClInclude Include="DBMsg-Market.h">
+      <Filter>DB Msg</Filter>
+    </ClInclude>
+    <ClInclude Include="DBMsg-MofuMofuEvent.h">
+      <Filter>DB Msg</Filter>
+    </ClInclude>
+    <ClInclude Include="DBMsg-Person.h">
+      <Filter>DB Msg</Filter>
+    </ClInclude>
+    <ClInclude Include="DBMsg-PersonalShop.h">
+      <Filter>DB Msg</Filter>
+    </ClInclude>
+    <ClInclude Include="DBMsg-PostOffice.h">
+      <Filter>DB Msg</Filter>
+    </ClInclude>
+    <ClInclude Include="DBMsg-PVP_League.h">
+      <Filter>DB Msg</Filter>
+    </ClInclude>
+    <ClInclude Include="DBMsg-RealEstateMarket.h">
+      <Filter>DB Msg</Filter>
+    </ClInclude>
+    <ClInclude Include="DBMsg-SoulGuard.h">
+      <Filter>DB Msg</Filter>
+    </ClInclude>
+    <ClInclude Include="DBMsg-Stock.h">
+      <Filter>DB Msg</Filter>
+    </ClInclude>
+    <ClInclude Include="DBMsg-Structure.h">
+      <Filter>DB Msg</Filter>
+    </ClInclude>
+    <ClInclude Include="DBMsg-Summon.h">
+      <Filter>DB Msg</Filter>
+    </ClInclude>
+    <ClInclude Include="DBMsg-SummonMarket.h">
+      <Filter>DB Msg</Filter>
+    </ClInclude>
+    <ClInclude Include="DBMsg-System.h">
+      <Filter>DB Msg</Filter>
+    </ClInclude>
+    <ClInclude Include="DBMsg-Vote.h">
+      <Filter>DB Msg</Filter>
+    </ClInclude>
+    <ClInclude Include="DBMsg-Web.h">
+      <Filter>DB Msg</Filter>
+    </ClInclude>
+    <ClInclude Include="DBMsg-Wedding.h">
+      <Filter>DB Msg</Filter>
+    </ClInclude>
+    <ClInclude Include="DBMsg-WorldMoney.h">
+      <Filter>DB Msg</Filter>
+    </ClInclude>
+    <ClInclude Include="DBMsg.h">
+      <Filter>DB Msg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RichODBC\ODBC\RichODBC.h">
+      <Filter>RichODBC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GoonZuWorld\common\Item\ItemCommon\cltItem.h">
+      <Filter>Item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GoonZuWorld\common\Item\ItemCommon\ItemCommon.h">
+      <Filter>Item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GoonZuWorld\common\Item\ItemCommon\ItemUnit.h">
+      <Filter>Item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GoonZuWorld\common\Item\ItemCommon\NPCItem.h">
+      <Filter>Item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GoonZuWorld\Lib\commonutil.h">
+      <Filter>Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GoonZuWorld\Lib\EtcTool\EtcTool.h">
+      <Filter>Lib\EtcTool</Filter>
+    </ClInclude>
+    <ClInclude Include="AgentProcess.h">
+      <Filter>AgentProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AdminSystem\MasterServer\MasterMsg.h">
+      <Filter>AgentProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GoonZuWorld\Server\Minister\MinisterBase.h">
+      <Filter>Minister</Filter>
+    </ClInclude>
+    <ClInclude Include="DBGameLogMsg.h">
+      <Filter>DBGameLogProtocol</Filter>
+    </ClInclude>
+    <ClInclude Include="DBGameLogProtocol.h">
+      <Filter>DBGameLogProtocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GoonZuWorld\CommonLogic\CityHall\GeneralMeeting.h">
+      <Filter>GeneralMeeting</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GoonZuWorld\CommonLogic\TextMgr\TextMgr.h">
+      <Filter>TextMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NLib\NArray.h">
+      <Filter>NLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NLib\NDataLoader.h">
+      <Filter>NLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NLib\NDataTypes.h">
+      <Filter>NLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NLib\NDate.h">
+      <Filter>NLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NLib\NDIB.h">
+      <Filter>NLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NLib\NDraw.h">
+      <Filter>NLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NLib\NFile.h">
+      <Filter>NLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NLib\NHashTable.h">
+      <Filter>NLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NLib\NHashTableString.h">
+      <Filter>NLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NLib\NList.h">
+      <Filter>NLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NLib\NMap.h">
+      <Filter>NLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NLib\NMsgShareBuffer.h">
+      <Filter>NLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NLib\NSpr.h">
+      <Filter>NLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NLib\NTCHARString.h">
+      <Filter>NLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NLib\NTextManager.h">
+      <Filter>NLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NLib\NTimer.h">
+      <Filter>NLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NLib\NUtil.h">
+      <Filter>NLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NLib\TSpr.h">
+      <Filter>NLib</Filter>
+    </ClInclude>
+    <ClInclude Include="BillInterfaces.h">
+      <Filter>BillInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="BillComponent\Bill.h">
+      <Filter>BillInterface\BIllComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="BillComponent\BillSocket.h">
+      <Filter>BillInterface\BIllComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="BillComponent\CashHeader.h">
+      <Filter>BillInterface\BIllComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="BillComponent\SyncSocket.h">
+      <Filter>BillInterface\BIllComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RichODBC\DBGW\DBGW.h">
+      <Filter>DBGW</Filter>
+    </ClInclude>
+    <ClInclude Include="HanGameBillingProcess\include\HannEverBillForSvr.h">
+      <Filter>HanGameBillingProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="HanGameBillingProcess\NHanGameBillingProcess.h">
+      <Filter>HanGameBillingProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="HanGameBillingProcess\NHannEverBillingProcess.h">
+      <Filter>HanGameBillingProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="HanGameBillingProcess\NIJJIBillingProcess.h">
+      <Filter>HanGameBillingProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GoonZuWorld\GMSystem\GMSectionData.h">
+      <Filter>GMSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="NHNChinaBilling\NHNChinaBilling.h">
+      <Filter>NHNChinaBilling</Filter>
+    </ClInclude>
+    <ClInclude Include="NHNChinaBilling\NHNChinaUtil.h">
+      <Filter>NHNChinaBilling</Filter>
+    </ClInclude>
+    <ClInclude Include="BillManager_Germany.h">
+      <Filter>BillingForGermany</Filter>
+    </ClInclude>
+    <ClInclude Include="BillSocket_Germany.h">
+      <Filter>BillingForGermany</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GoonZuWorld\CommonLogic\DormancyAccountSystem\DormancyInfo.h">
+      <Filter>DormancyAccount</Filter>
+    </ClInclude>
+    <ClInclude Include="BillManager_nDoors_Korea.h">
+      <Filter>BillingForKorea</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
