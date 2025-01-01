@@ -120,7 +120,7 @@ void cltServer::DoMsg_GAMEMSG_REQUEST_REALESTATEMARKET_SELL(cltMsg* pclMsg, SI32
 	
 	if( pclHouseUnit == NULL ) return;
 
-	i = 0;
+	int i = 0;
 	for( i = 0; i < MAX_HOUSEUNIT_HORSENUMBER ; i ++ )
 	{
 		//KHY - 0622 - 군주S 초보자용  망아지 추가.

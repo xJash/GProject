@@ -33,8 +33,6 @@ template< class Type >
 class NListNode
 {
 public:
-	friend class NList;
-	friend class NListPool;
 
 	NListNode() : m_pListPool(0), m_index(0), m_pPrev(0), m_pNext(0), m_pList(0) {}
 	~NListNode() {}
@@ -72,7 +70,6 @@ template< class Type >
 class NListPool
 {
 public:
-	friend class NList;
 
 	NListPool( int maxSize ) { CreateListPool( maxSize ); }
 	
@@ -144,7 +141,6 @@ template< class Type >
 class NList
 {
 public:
-	friend class NListPool;
 
 	NList();
 	NList( NListPool< Type > *pListPool );

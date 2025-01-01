@@ -8,7 +8,7 @@
 
 #include <windows.h>
 #include <windowsx.h>
-#include <Dplay8.h>
+#include <dplay8.h>
 #include <directives.h>
 #include "../../Char\CharAni\CharAni.h"
 #include "../../Char\parametaBox\ParametaBox.h"

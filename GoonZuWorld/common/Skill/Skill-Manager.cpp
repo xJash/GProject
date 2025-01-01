@@ -1204,8 +1204,9 @@ SI32 GetRequiredSkillExpForLevel(SI32 level)
 // 기술 경험치를 근거로 경험레벨을 구한다. 
 SI32 GetSkillLevelFromExp(SI32 exp)
 {
+	SI32 i;
 	//KHY - 0820 - 0~70까지 총 71단계. 70레벨이후는 경험치만 누적.
-	for(SI32 i = 0; i < ExpForSkillLevelUp.GetSize(); i++)
+	for( i = 0; i < ExpForSkillLevelUp.GetSize(); i++)
 	{
 		if(ExpForSkillLevelUp[i][1] > exp)
 			return (i - 1);

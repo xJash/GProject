@@ -15,8 +15,8 @@ SessionList::~SessionList()
 
 void SessionList::AddMasterSession( cMaster *pMaster, char *szMessage )
 {
-	
-	for( int i = 0; i < 10; i++ ) {
+	int i;
+	for( i = 0; i < 10; i++ ) {
 
 		if( m_sessionInfo[ i ].pServer == pMaster->m_pServer &&
 			m_sessionInfo[ i ].pMaster == NULL ) {
@@ -52,8 +52,8 @@ void SessionList::AddMasterSession( cMaster *pMaster, char *szMessage )
 
 void SessionList::AddServerSession( cServer *pServer, char *szMessage )
 {
-
-	for( int i = 0; i < 10; i++ ) {
+	int i;
+	for( i = 0; i < 10; i++ ) {
 
 		if( m_sessionInfo[ i ].pMaster == pServer->m_pMaster &&
 			m_sessionInfo[ i ].pServer == NULL ) {

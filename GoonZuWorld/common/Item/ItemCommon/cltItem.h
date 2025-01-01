@@ -810,7 +810,7 @@ class cltItemInfo{
 				}
 			}
 
-			for(i = 0; i < MAX_TOOL_NUMBER;i++)
+			for(int i = 0; i < MAX_TOOL_NUMBER;i++)
 			{
 				SI32 unique = clProductionInfo.clTool[i].siUnique;
 			

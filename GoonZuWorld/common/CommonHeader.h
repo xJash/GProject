@@ -3686,7 +3686,7 @@ inline void NTraceF(TCHAR* pszFormat, ...)
 	va_start(ar, pszFormat);
 
 	wvsprintf(szBuf, pszFormat, ar);
-	OutputDebugStr(szBuf);
+	OutputDebugString(szBuf);
 
 	va_end(ar);
 }

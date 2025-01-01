@@ -1363,7 +1363,7 @@ void cltServer::DoMsg_GAMEMSG_REQUEST_PRIVATETRADE_MYACCEPT(cltMsg* pclMsg, SI32
 			bool bPerson1PileSwitch[ MAX_PRIVATETRADEORDER_ITEM_NUM ];
 			memset( bPerson1PileSwitch, 0, sizeof( bool ) * MAX_PRIVATETRADEORDER_ITEM_NUM );
 			
-			for ( k = 0; k < MAX_PRIVATETRADEORDER_ITEM_NUM; ++k )
+			for ( int k = 0; k < MAX_PRIVATETRADEORDER_ITEM_NUM; ++k )
 			{
 				if ( clPerson2ItemList[ k ].CanPile( pclItemManager ) )
 				{
@@ -1579,7 +1579,7 @@ void cltServer::DoMsg_GAMEMSG_REQUEST_PRIVATETRADE_MYACCEPT(cltMsg* pclMsg, SI32
 				}
 			}
 
-			for ( i = 0; i < MAX_PRIVATETRADEORDER_ITEM_NUM; ++i )
+			for ( int i = 0; i < MAX_PRIVATETRADEORDER_ITEM_NUM; ++i )
 			{
 				cltItem clItem;
 				
@@ -1717,7 +1717,7 @@ void cltServer::DoMsg_GAMEMSG_REQUEST_PRIVATETRADE_MYACCEPT(cltMsg* pclMsg, SI32
 				}
 			}
 
-			for ( i = 0; i < MAX_PRIVATETRADEORDER_ITEM_NUM; ++i )
+			for (int i = 0; i < MAX_PRIVATETRADEORDER_ITEM_NUM; ++i )
 			{
 				cltItem clItem;
 				

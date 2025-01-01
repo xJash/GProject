@@ -152,7 +152,7 @@ void cltServerMap::SendNewOthersInfoToPerson( ITZPerson *pPerson )
 	
 
 
-	for( i = 0; i < m_uiRemoveCellCount; ++i ) {
+	for( int i = 0; i < m_uiRemoveCellCount; ++i ) {
 
 		LIST_LOOP( &m_pRemoveCell[ i ]->m_personPtrList, pItor )
 		{

@@ -51,7 +51,7 @@ public:
 	BOOL	SetGMGameMode(SI32 siMode);
 	BOOL	TakeinHorse(cltCharServer* pclChar);
 protected:
-	const static LIMIT_COUNTERCHANGEPOWERUPCHAR = 3;
+	const static int LIMIT_COUNTERCHANGEPOWERUPCHAR = 3;
 	SI32 m_siCountChangePowerupChar;
 		
 	NkVector<CBattleRoyalPersonChangedData>*	m_pclPersonChangedData;	// 변경된 개인 정보 리스트
